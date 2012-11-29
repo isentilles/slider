@@ -74,7 +74,7 @@ span.step_nums {
 	float: left;
 	width: 20px;
 	height: 100%;
-	background: url('assets/step_inactive.png') no-repeat;
+	background: red;
 	padding: 6px 10px;
 	margin: 0 20px 0 0;
 	color: #fff;
