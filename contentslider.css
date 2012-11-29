@@ -80,6 +80,7 @@ span.step_nums {
 	color: #fff;
 	cursor: pointer;
 	position: relative;
+	border-radius: 30px;
 }
 span.active_step {
 	background: url('assets/step_active.png') no-repeat !important;
