@@ -1,0 +1,86 @@
+/* non-essential styling */
+html, body {background: #444; color: #fff; font-family: Helvetica, sans-serif;}
+.clearfix {clear:both;}
+
+/* viewer styling */
+div.viewer {
+	width:940px; 
+	height:525px; 
+	margin:0 auto; 
+	position:relative; 
+	overflow:hidden;
+}
+div.viewer ul {
+	margin:0;
+	padding:0;
+	display:none;
+}
+div.image_container {
+	width: 940px; 
+	height:525px;
+	position:absolute;
+	top:0;
+	left:0;
+	margin:0;
+	padding:0;
+}
+div.image_container img {
+	float:left; 
+	display:inline-block;
+	z-index:10;
+	margin:0;
+	padding:0;
+}
+div.image_container ul li {
+	list-style-type: none;
+}
+
+/* buttons styling */
+div.next, div.previous {
+	width:40px; 
+	height: 40px; 
+	z-index:21; 
+	cursor:pointer; 
+}
+div.next {
+	display:block;
+	position:absolute; 
+	top: 225px; 
+	right: 15px; 
+	background: url('assets/arrow_right.png') no-repeat; 
+}
+div.previous {
+	display:block;
+	position:absolute; 
+	top: 225px; 
+	left:15px; 
+	background: url('assets/arrow_left.png') no-repeat;
+} 
+
+/*step numbers styling */
+div.steps_container {
+	clear: both;
+	margin: 10px auto;
+	z-index: 50;
+	position: relative;
+	top: 5px;
+	right: 0;
+	width: 940px;
+	height: 30px;
+	font-size: 12pt !important;
+}
+span.step_nums {
+	font-size: 10pt;
+	float: left;
+	width: 20px;
+	height: 100%;
+	background: url('assets/step_inactive.png') no-repeat;
+	padding: 6px 10px;
+	margin: 0 20px 0 0;
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+}
+span.active_step {
+	background: url('assets/step_active.png') no-repeat !important;
+}
